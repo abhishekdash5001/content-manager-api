@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "title": "Learning Singleton Pattern",
+    "resources": "Abhishekddd",
+    "description": "I would like to learn singleton in JS language, it's important for my work",
+    "link": "https://link.com",
+    "image": "https://image.com",
+    "priority": 3,
+    "timeToFinish": 120,
+    "status": "inactive"
+  },
+  {
+    "id": "2",
+    "resources": "Abhishekddd",
+    "title": "Resource 2 new updated again",
+    "description": "Resource 2 Desc",
+    "link": "https://link.com",
+    "image": "https://image.com",
+    "priority": 2,
+    "timeToFinish": 60,
+    "status": "active",
+    "activationTime": "2025-01-30T10:08:27.136Z"
+  },
+  {
+    "title": "Resource Priyanka",
+    "description": "Resource 3 Desc",
+    "resources": "Abhishekddd",
+    "link": "https://link.com",
+    "priority": 1,
+    "status": "inactive",
+    "timeToFinish": 30,
+    "id": "3"
+  },
+  {
+    "title": "bolt Complete",
+    "description": "bolt is good body we",
+    "resources": "Abhishekddd",
+    "link": "bolt ",
+    "priority": 2,
+    "status": "Complete",
+    "timeToFinish": "1",
+    "id": "1737454821028",
+    "activationTime": "2025-01-30T09:43:34.299Z"
+  },
+  {
+    "title": "athena",
+    "description": "athena beti",
+    "resources": "athenadd",
+    "link": "athena",
+    "priority": 2,
+    "status": "Complete",
+    "timeToFinish": 1,
+    "id": "1737455075929",
+    "activationTime": "2025-01-30T09:56:05.253Z"
+  },
+  {
+    "title": "5",
+    "description": "5",
+    "resources": "5",
+    "link": "5",
+    "priority": 2,
+    "status": "inactive",
+    "timeToFinish": "600",
+    "id": "1737455179221"
+  },
+  {
+    "title": "Abhishek Dasg",
+    "description": "6",
+    "resources": "6",
+    "link": "6",
+    "priority": 2,
+    "timeToFinish": 60,
+    "id": "1737455262511",
+    "status": "inactive"
+  },
+  {
+    "title": "ADasg",
+    "description": "asdsd",
+    "resources": "Adash",
+    "link": "asas",
+    "priority": "3",
+    "timeToFinish": "200",
+    "createdAt": "2025-01-26T23:48:20.246Z",
+    "status": "inactive",
+    "id": "1737935300246"
+  },
+  {
+    "title": "61",
+    "description": "6",
+    "resources": "6",
+    "link": "6",
+    "priority": 2,
+    "timeToFinish": 60,
+    "createdAt": "2025-01-27T00:23:01.652Z",
+    "status": "inactive",
+    "id": "1737937382769"
+  }
+]
