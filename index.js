@@ -10,7 +10,7 @@ const getResources =()=> JSON.parse(fs.readFileSync(pathToFile));
 
 //this is important it telss the server to receive a json request
 app.use(express.json())
-const PORT = 3001;
+const PORT = process.env.PORT||3001;
 
 // var corsOption={
 //     origin: 'http://localhost:3000',
