@@ -1,0 +1,16 @@
+[
+  {
+    "id": 15,
+    "slug": "some-blog-15",
+    "title": "some blog 15",
+    "description": "Such an interesting blog!",
+    "coverImage": "image/upload/v1715665203/cld-sample.jpg"
+  },
+  {
+    "id": 10,
+    "slug": "some-blog-10",
+    "title": "some blog 10",
+    "description": "Such an interesting blog as well!",
+    "coverImage": "image/upload/v1715665203/cld-sample.jpg"
+  }
+]
