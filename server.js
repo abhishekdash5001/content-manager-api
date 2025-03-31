@@ -7,7 +7,8 @@ const randomizer = require('./randomizer');
 App.use(express.json())
 const pathToContent = path.join(__dirname,"content");
 const PORT = process.env.PORT||3001;
-
+const portfoliosPath = path.join(pathToContent,'portfolio.json');
+const portfolios = JSON.parse(fs.readFileSync(portfoliosPath,'utf-8'));
 App.get("/api/blogs",(req,res)=>{
     randomizer();
 
@@ -26,6 +27,32 @@ App.get("/api/portfolios",(req,res)=>{
 
 
    
+ })
+
+ App.post("/api/portfolios",(req,res)=>{
+  const {companyName}= req.body
+ let isPresent=  portfolios.some((portfolio)=>portfolio.name == companyName);
+ if(!isPresent){
+  portfolios.push(req.body);
+  try{
+    fs.writeFileSync(portfoliosPath,JSON.stringify(portfolios,null,2));
+    res.status(201).send({
+      message:"Company Data is saved"
+    })
+  }catch(er){
+    res.status(500).send({
+      message:"Not able to save the company"
+    })
+  }
+  
+ }else{
+  res.status(409).send({
+    message:"Company is already saved"
+  })
+ }
+
+
+
  })
 
 App.listen(PORT,()=>{

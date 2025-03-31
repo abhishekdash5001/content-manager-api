@@ -1,9 +1,10 @@
-[{
-    "id": "1",
-    "slug": "work-in-tcs",
-    "title": "Work in TCS server",
-    "description": "It was a good work",
-    "coverImage":
-      "image/upload/v1715665203/cld-sample.jpg"
+[
+  {
+    "companyName": "TCS",
+    "companyStartDate": "2015-12-21",
+    "companyEndDate": "2018-04-16",
+    "designation": "System Analyst",
+    "description": "integrated real-time weather data into a fuel management system to optimize routes and fuel efficiency. Led client-facing technical discussions and collaborated with backend teams to enhance feature performance. Worked on feature development, bug fixing, and system optimization, improving user experience. Utilized Angular 2, Ag-Grid, Bootstrap, and SCSS for frontend development in the Grainger project",
+    "companyImage": "https://res.cloudinary.com/dift1cspg/image/upload/v1743410381/sfagbhwkg4kvoogurgwf.avif"
   }
- ]
+]

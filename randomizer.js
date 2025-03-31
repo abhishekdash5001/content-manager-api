@@ -11,7 +11,7 @@ const MAX_COUNT = 20;
     const blogsPath = path.join(__dirname,"content","blogs.json");
     const content = fs.readFileSync(blogsPath ,'utf-8');
     const blogs  = JSON.parse(content)
-    console.log(blogs)
+
     blogs.forEach(blog=>{
         const randomId = Math.floor(Math.random()*MAX_COUNT);
         blog.id = randomId;
